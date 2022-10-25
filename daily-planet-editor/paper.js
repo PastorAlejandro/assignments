@@ -20,9 +20,9 @@ function whoWins(isThereKryptonite, enemyName){
 }
 
 for (var i = 0 ; i < enemies.length ; i++){
-    var isThereKryptonite:
+    var isThereKryptonite;
     if (i % 2 === 0) {
-        isThereKryptonite = true,;
+        isThereKryptonite = true;
     } else {
         isThereKryptonite = false;
     }
@@ -39,7 +39,7 @@ console.log( howAttractedIsLoisLaneToMe ()) ;
 var isClarkKent = true;
 var isSuperman = false;
 
-while (clarkKent){
+while (isClarkKent){
     var phoneBoothQuickChange = Math.random();
     if (phoneBoothQuickChange >= 0.5) {
         isClarkKent = false;
